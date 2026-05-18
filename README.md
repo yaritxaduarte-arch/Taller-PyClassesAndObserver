@@ -30,6 +30,9 @@ git status
 ```
 
 Después de clonar el repositorio, completa esta sección durante la primera misión conn los comandos para crear, activar y preparar el entorno virtual.
+Agrega python3 -m venv .venv en Instalacion.
+source .venv/bin/activate o .venv\Scripts\activate
+pip install -r requirements.txt
 
 ## Estructura esperada
 
