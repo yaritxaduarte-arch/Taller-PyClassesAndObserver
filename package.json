@@ -1,0 +1,21 @@
+{
+  "name": "clases-python-observer-practice",
+  "version": "1.0.0",
+  "description": "Repositorio plantilla para una practica guiada de clases en Python y patron Observer.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "create:initial-issues": "node scripts/create-initial-issues.js",
+    "create:next-issue": "node scripts/create-next-issue.js",
+    "guard:manual-close": "node scripts/guard-manual-issue-close.js",
+    "validate:progress": "node scripts/validate-progress.js",
+    "validate:readme": "node scripts/validate-readme.js",
+    "validate:python": "node scripts/validate-python-practice.js --strict",
+    "grade": "node scripts/validate-python-practice.js --score",
+    "test": "node --check scripts/practice-missions.js && node --check scripts/github-api.js && node --check scripts/create-initial-issues.js && node --check scripts/create-next-issue.js && node --check scripts/guard-manual-issue-close.js && node --check scripts/validate-readme.js && node --check scripts/validate-python-practice.js && node --check scripts/validate-progress.js"
+  }
+}
+
