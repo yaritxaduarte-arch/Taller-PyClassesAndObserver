@@ -29,7 +29,7 @@ cd NOMBRE_DEL_REPOSITORIO
 git status
 ```
 
-Después de clonar el repositorio, completa esta sección durante la primera misión con los comandos para crear, activar y preparar el entorno virtual.
+Después de clonar el repositorio, completa esta sección durante la primera misión conn los comandos para crear, activar y preparar el entorno virtual.
 
 ## Estructura esperada
 
