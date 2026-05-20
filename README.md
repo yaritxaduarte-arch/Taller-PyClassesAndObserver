@@ -183,4 +183,17 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 
 ## Autores
 
-- Reemplaza esta línea con tu nombre, grupo, curso o rol.
+yaritxa Duarte Urueña
+ingenieria de software 1
+estudiante
+
+## Explicación de las clases
+
+### CanalNoticias
+Representa el sujeto observable. Se encarga de guardar los observadores y notificarles cuando se publica un mensaje.
+
+### SuscriptorEmail
+Representa un observador que recibe mensajes por email y los guarda en una lista.
+
+### SuscriptorSMS
+Representa un observador que recibe mensajes por SMS y almacena los mensajes recibidos.
